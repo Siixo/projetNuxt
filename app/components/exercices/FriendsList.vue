@@ -1,5 +1,5 @@
 <template>
-  <NewFriend @newFriend="addFriend" />
+  <NewFriend class="" @newFriend="addFriend" />
 
   <div v-for="Amis in lesAmis" :key="Amis.id">
     <List

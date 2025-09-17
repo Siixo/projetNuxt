@@ -1,11 +1,14 @@
 <template>
-  <form class="space-y-4" @submit.prevent="submitForm">
+  <form
+    class="space-y-4 flex flex-col justify-center items-center p-2"
+    @submit.prevent="submitForm"
+  >
     <div>
-      <label>Nom:</label>
+      <label class="pr-2">Nom:</label>
       <input v-model="name" type="text" required class="border rounded px-2" />
     </div>
     <div>
-      <label>Âge:</label>
+      <label class="pr-2">Âge:</label>
       <input
         v-model.number="age"
         type="number"

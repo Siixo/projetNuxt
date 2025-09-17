@@ -1,5 +1,7 @@
 <template>
-  <fieldset class="p-4 border rounded-lg max-w-md">
+  <fieldset
+    class="p-4 border rounded-lg max-w-md flex flex-col justify-center items-center w-full"
+  >
     <label class="block"> Name </label>
     <input
       v-model="name"
